@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/aifivem/ai-lib/compare/v0.6.0...v0.6.1) (2026-11-15)
+
+
+### Code Refactoring
+
+* **web:** individual translate / scale / rotate utilities instead of arbitrary transforms (CEF 144) ([6f90c20](https://github.com/aifivem/ai-lib/commit/6f90c20fde8cd799c79ba3f3fb8b84c21fd74def))
+
 ## [0.6.0](https://github.com/aifivem/ai-lib/compare/v0.5.2...v0.6.0) (2026-11-02)
 
 
