@@ -132,7 +132,7 @@ function WorldPrompt({ prompt }: { prompt: Prompt }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.2, ease: "easeOut" }}
-      className="flex [transform:translate(-50%,-50%)] items-center gap-[1vh] text-[#f7fffb] [text-shadow:0.1vh_0.1vh_#000]"
+      className="flex -translate-x-1/2 -translate-y-1/2 items-center gap-[1vh] text-[#f7fffb] [text-shadow:0.1vh_0.1vh_#000]"
     >
       <span className="border-tgi-green bg-tgi-green-20 relative flex h-[3vh] min-w-[3vh] items-center justify-center rounded-[0.3vh] border-[0.1vh] px-[0.6vh] text-[1.6vh] font-semibold">
         {prompt.button}

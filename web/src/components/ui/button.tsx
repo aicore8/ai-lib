@@ -9,7 +9,7 @@ import { cn } from "../../lib/utils";
  * `ghost` are grey, `destructive` confirms a delete, `danger` is the soft red chip, `icon` a round icon button.
  */
 const buttonVariants = cva(
-  "inline-flex shrink-0 items-center justify-center gap-[0.8vh] rounded-full px-[1.8vh] whitespace-nowrap transition-[background-color,color,transform] duration-150 ease-out enabled:active:[transform:scale(0.97)] disabled:cursor-not-allowed disabled:opacity-40",
+  "inline-flex shrink-0 items-center justify-center gap-[0.8vh] rounded-full px-[1.8vh] whitespace-nowrap transition-[background-color,color,transform,translate,scale,rotate] duration-150 ease-out enabled:active:scale-97 disabled:cursor-not-allowed disabled:opacity-40",
   {
     variants: {
       variant: {
@@ -23,7 +23,7 @@ const buttonVariants = cva(
           "bg-danger-solid font-semibold text-text enabled:hover:bg-[#dc2626]",
         danger:
           "bg-danger-bg font-semibold text-danger enabled:hover:bg-[rgba(239,68,68,0.25)]",
-        icon: "size-[3.6vh] bg-control px-0 text-[1.3vh] text-text-2 enabled:hover:bg-control-hover enabled:hover:text-text enabled:active:[transform:scale(0.92)]",
+        icon: "size-[3.6vh] bg-control px-0 text-[1.3vh] text-text-2 enabled:hover:bg-control-hover enabled:hover:text-text enabled:active:scale-92",
       },
       size: {
         md: "h-[3.6vh] text-[1.35vh]",
