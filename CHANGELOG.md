@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.7.0](https://github.com/aifivem/ai-lib/compare/v0.6.1...v0.7.0) (2026-11-16)
+
+
+### New Features
+
+* zone host turns zones into FiveM colshapes ([c83c2e9](https://github.com/aifivem/ai-lib/commit/c83c2e965416d1c28fc0aecbd5a4d2fbc204b3ab))
+
+
+### Documentation
+
+* zone host colshape behaviour ([86e8e83](https://github.com/aifivem/ai-lib/commit/86e8e83be564ff9d877009b513c7b50c094473c6))
+
 ## [0.6.1](https://github.com/aifivem/ai-lib/compare/v0.6.0...v0.6.1) (2026-11-15)
 
 
