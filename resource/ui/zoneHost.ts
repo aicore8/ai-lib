@@ -12,7 +12,8 @@ import { LIB_UI } from "@aifivem/shared";
  * it has any timer, so one checker here replaces one per resource. Enter / exit go back as a local event to the owner;
  * a stopping resource's zones go with it.
  */
-const engine = new ZoneEngine();
+// The one engine per client that turns zones into FiveM colshapes (every resource gets every colshape event).
+const engine = new ZoneEngine({ colshapes: true });
 const owned = new ByResource<string, true>({
   onDrop: (_resource, key) => engine.remove(key, true),
 });
