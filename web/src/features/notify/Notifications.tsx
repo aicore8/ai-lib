@@ -9,7 +9,7 @@ import {
   faTriangleExclamation,
   type IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
-import type { Notification, NotificationKind } from "@aifivem/shared";
+import type { Notification, NotificationKind } from "@aicore8/shared";
 import { NuiMessage } from "../../../../resource/common/nui";
 import { NOTIFY_MOCK, PROGRESS_MOCK } from "../../dev/notifyMock";
 

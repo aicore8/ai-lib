@@ -1,5 +1,5 @@
-import { caller, registerExport } from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+import { caller, registerExport } from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import { NuiCallback } from "common/nui";
 import { dialogs } from "./dialogs";
 import { toInput, toMenu } from "./parse";

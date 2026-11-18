@@ -4,14 +4,14 @@ import {
   Keybind,
   optionalExport,
   registerExport,
-} from "@aifivem/lib/client";
+} from "@aicore8/lib/client";
 import {
   isRecord,
   logSafe,
   readVec3,
   type Vec3,
-} from "@aifivem/lib/shared";
-import { LIB_UI } from "@aifivem/shared";
+} from "@aicore8/lib/shared";
+import { LIB_UI } from "@aicore8/shared";
 import Locale from "common/locale";
 import { NuiMessage } from "common/nui";
 

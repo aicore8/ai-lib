@@ -4,9 +4,9 @@ import {
   onServerCallback,
   onServerEvent,
   progress,
-} from "@aifivem/lib/client";
-import { isRecord, logSafe, readVec3, waitFor } from "@aifivem/lib/shared";
-import { LIB_UI, type ServerProgress } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { isRecord, logSafe, readVec3, waitFor } from "@aicore8/lib/shared";
+import { LIB_UI, type ServerProgress } from "@aicore8/shared";
 
 const text = (v: unknown, max: number): string | undefined =>
   typeof v === "string" && v.length > 0 && v.length <= max ? v : undefined;

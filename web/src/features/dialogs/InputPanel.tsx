@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { InputRequest } from "@aifivem/shared";
+import type { InputRequest } from "@aicore8/shared";
 import { Button } from "../../components/ui/button";
 import { Dialog } from "../../components/ui/dialog";
 import { Input } from "../../components/ui/input";

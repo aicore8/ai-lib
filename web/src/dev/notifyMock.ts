@@ -1,4 +1,4 @@
-import type { Notification } from "@aifivem/shared";
+import type { Notification } from "@aicore8/shared";
 
 /** Browser preview only: `?view=notify` shows a notification of each kind and a running progress bar. */
 const view = new URLSearchParams(window.location.search).get("view");

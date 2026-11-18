@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { SkillStage } from "@aifivem/shared";
+import type { SkillStage } from "@aicore8/shared";
 import { answer } from "../../lib/dialogAnswer";
 import { Hint } from "./KeyHint";
 import type { MinigameTexts } from "./types";

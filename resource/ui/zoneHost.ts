@@ -3,9 +3,9 @@ import {
   caller,
   registerExport,
   ZoneEngine,
-} from "@aifivem/lib/client";
-import { readFinite, readZoneShape } from "@aifivem/lib/shared";
-import { LIB_UI } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { readFinite, readZoneShape } from "@aicore8/lib/shared";
+import { LIB_UI } from "@aicore8/shared";
 
 /**
  * Every resource's zones in one checker (lib `Zones` hands them over): FiveM enters a resource's JS every frame while

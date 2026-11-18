@@ -5,9 +5,9 @@ import {
   optionalExport,
   registerExport,
   stateString,
-} from "@aifivem/lib/client";
-import { asArgs, logSafe } from "@aifivem/lib/shared";
-import { CORE, LIB_UI, type Notification } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { asArgs, logSafe } from "@aicore8/lib/shared";
+import { CORE, LIB_UI, type Notification } from "@aicore8/shared";
 import { NuiMessage } from "common/nui";
 import Locale from "common/locale";
 

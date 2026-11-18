@@ -2,13 +2,13 @@ import {
   caller,
   onServerCallback,
   registerExport,
-} from "@aifivem/lib/client";
-import { isRecord } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { isRecord } from "@aicore8/lib/shared";
 import {
   LIB_UI,
   type MinigameRequest,
   type SkillStage,
-} from "@aifivem/shared";
+} from "@aicore8/shared";
 import Locale from "common/locale";
 import { dialogs } from "./dialogs/dialogs";
 

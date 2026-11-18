@@ -4,8 +4,8 @@ import {
   ModelScanner,
   readModelScanDef,
   registerExport,
-} from "@aifivem/lib/client";
-import { LIB_UI } from "@aifivem/shared";
+} from "@aicore8/lib/client";
+import { LIB_UI } from "@aicore8/shared";
 
 /**
  * Every resource's prompt-mode model points in one scan (lib `Points.addModel` hands them over): FiveM enters a
